@@ -117,7 +117,7 @@ fn main() -> eframe::Result {
     };
 
     eframe::run_native(
-        "My egui App",
+        "Ferrix",
         options,
         Box::new(|_cc| Ok(Box::<Ferrix>::default())),
     )
